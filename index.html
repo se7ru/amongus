@@ -23,29 +23,4 @@
 </head>
 <body>
 
-  <video id="myVideo" autoplay muted loop>
-    <source src="taiga.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-
-  <script>
-    const video = document.getElementById('myVideo');
-    
-    video.addEventListener('click', () => {
-      if (video.requestFullscreen) {
-        video.requestFullscreen();
-      } else if (video.mozRequestFullScreen) { // Firefox
-        video.mozRequestFullScreen();
-      } else if (video.webkitRequestFullscreen) { // Chrome, Safari, Opera
-        video.webkitRequestFullscreen();
-      } else if (video.msRequestFullscreen) { // IE/Edge
-        video.msRequestFullscreen();
-      }
-      
-      // Toggle mute
-      video.muted = !video.muted;
-    });
-  </script>
-
-</body>
-</html>
+ <img src="acid.png" alt="acid">
